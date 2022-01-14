@@ -1,1 +1,30 @@
+body {
+    background-color: #072227;
+}
+.logo {
+    border-radius: 10px;
+    padding: 0;
+}
 
+.navbar {
+    background: #072227;
+    border-bottom: 2px solid #35858B;
+    padding: 1px 20px;
+}
+.nav-item {
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.nav-link {
+    color: #AEFEFF;
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: #4FBDBA;
+}
+.navbar-toggler-icon {
+    background-color: #35858B;
+    -webkit-mask: url(../images/bars-solid.svg) no-repeat center;
+    mask: url(../images/bars-solid.svg) no-repeat center;
+}
