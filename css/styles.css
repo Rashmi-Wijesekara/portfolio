@@ -86,15 +86,24 @@ body {
     font-size: 22px;
 }
 
-.btn-set1 {
-    margin-top: 10px;
-    margin-right: 10px;
+.button-collection {
+    display: flex;
+    justify-content: right;
+}
+
+.btn-set1, .btn-set2 {
     color: #072227;
 }
-.btn-set1:hover {
+
+.btn-set1 {
+    margin-right: 20px;
+}
+
+.btn-set1:hover, .btn-set2:hover {
     background-color: #AEFEFF;
     font-weight: 800;
 }
+
 
 /* about me section */
 .about-section {
@@ -107,16 +116,42 @@ body {
     font-size: 2rem;
     font-weight: 500;
     margin: 5px 0 10px 25px;
-    width: 75%;
+    width: 90%;
     border-bottom: 2px solid #35858B;
 }
+/****************************************************/
 
+/* skills section */
 
+/* projects section */
 
+/* contact section */
+.contact-section {
+    background: #044343;
+}
 
+.sentence {
+    color: whitesmoke;
+    font-family: Ubuntu;
+    font-size: 18px;
+    margin: 20px 0 0 25px;
+    text-align: center;
+    width: 90%;
+}
 
+.contact-social-medias {
+    margin: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.contact-social-medias .logo-item-footer {
+    font-size: 60px;
+    margin: 20px;
+}
+/*******************************************************/
 
-
+/* footer section */
 footer {
     background-color: #0D7377;
     font-family: "Montserrat";
@@ -127,7 +162,7 @@ footer {
 .footer-logo {
     padding: -2px;
     border-radius: 10px;
-
+    
 }
 .footer-link {
     color: #52c2ca;
@@ -144,4 +179,29 @@ footer {
 
 .footer .row {
     width: 100vw;
+}
+/*******************************************************/
+
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .btn-set2 {
+        float:right;
+    }
+    .button-collection {
+        margin-left: 25px;
+        justify-content: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .button-collection {
+        width: 90%;
+        margin-left: 25px;
+    }
+
+    .btn-set1 {
+        margin-right: 50px;
+    }
 }
