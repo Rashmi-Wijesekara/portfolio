@@ -12,8 +12,9 @@ body {
     padding: 1px 20px;
 }
 .nav-item {
+    font-family: "Montserrat";
     font-size: 18px;
-    margin-left: 25px;
+    margin-left: 35px;
 }
 
 .nav-link {
@@ -27,4 +28,120 @@ body {
     background-color: #35858B;
     -webkit-mask: url(../images/bars-solid.svg) no-repeat center;
     mask: url(../images/bars-solid.svg) no-repeat center;
+}
+
+/*
+.github-icon {
+    background-color: whitesmoke;
+    -webkit-mask: url(../images/github-brands.svg) no-repeat center;
+    mask: url(../images/github-brands.svg) no-repeat center;
+}*/
+
+.social-medias {
+    top: 50%;
+    left: 20px;
+    position: fixed;
+    z-index: 100;
+}
+
+.social-medias .fab {
+    font-size: 50px;
+    color: #4FBDBA;
+    padding-top: 5px;
+}
+.social-medias .fab:hover {
+    color: #AEFEFF;
+}
+
+.col-12 {
+    width: 0;
+    padding: 3px;
+}
+
+.introduction {
+    margin-bottom: 20px;
+
+}
+.intro-container {
+    position: relative;
+    font-size: 18px;
+    /*color: #AEFEFF;*/
+    color: whitesmoke;
+    margin-top: 100px;
+    font-family: Ubuntu, sans-serif;
+
+}
+
+.container-fluid {
+    padding: 2% 10%;
+}
+
+.name {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.details {
+    font-size: 22px;
+}
+
+.btn-set1 {
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #072227;
+}
+.btn-set1:hover {
+    background-color: #AEFEFF;
+    font-weight: 800;
+}
+
+/* about me section */
+.about-section {
+    padding-top: 10px;
+}
+
+.topic {
+    color: #AEFEFF;
+    font-family: "Montserrat";
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 5px 0 10px 25px;
+    width: 75%;
+    border-bottom: 2px solid #35858B;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #0D7377;
+    font-family: "Montserrat";
+}
+.footer-1, .footer-2{
+    font-size: 13px;
+}
+.footer-logo {
+    padding: -2px;
+    border-radius: 10px;
+
+}
+.footer-link {
+    color: #52c2ca;
+}
+
+.logo-item-footer {
+    font-size: 35px;
+    color: #52c2ca;
+}
+.logo-item-footer:hover, .footer-link:hover {
+    color: #AEFEFF;
+    text-decoration: none;
+}
+
+.footer .row {
+    width: 100vw;
 }

@@ -2,6 +2,11 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu');
+        </style>
+        
         <title>Rashmi Wijesekara</title>
         <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/Rashmi-Wijesekara/portfolio/main/images/favicon.ico">
 
@@ -9,43 +14,157 @@
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
+        <script src="https://kit.fontawesome.com/18b6e8664a.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <nav class= "navbar fixed-top navbar-expand-lg">
-            <a class="navbar-brand" href="">
-                <img src="images/logo.png" alt="Logo" width="75px" class="logo">
+        
+        <!-- social media icons -->
+        <div class="social-medias row">
+            <a href="https://github.com/Rashmi-Wijesekara" target="_blank" class="col-12">
+                <i class="fab fa-github-square"></i>
             </a>
+            <a href="https://www.linkedin.com/in/rashmi-wijesekara-a1a1881b3/" target="_blank" class="col-12">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/Rashmi_15_" target="_blank" class="col-12">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+        </div>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- navbar & introduction section -->
+        <div class="container-fluid">
+            
+            <!-- navigation bar logo, items, toggle button for small devices -->
+            <nav class= "navbar fixed-top navbar-expand-lg">
+                
+                <!-- RW logo image -->
+                <a class="navbar-brand" href="">
+                    <img src="images/logo.png" alt="Logo" width="75px" class="logo">
+                </a>
+    
+                <!-- toggle button for medium/small devices -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <!-- navigation bar menu items -->
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class= "navbar-nav ml-auto">
+                        <li class= "nav-item">
+                            <a class="nav-link" href="">
+                                About
+                            </a>
+                        </li>
+                        <li class= "nav-item">
+                            <a class="nav-link" href="">
+                                Skills
+                            </a>
+                        </li>
+                        <li class= "nav-item">
+                            <a class="nav-link" href="">
+                                Projects
+                            </a>
+                        </li>
+                        <li class= "nav-item">
+                            <a class="nav-link" href="">
+                                Contact
+                            </a>
+                        </li>
+                    </ul> 
+                </div> <!-- navbar-collapse -->
+    
+            </nav>
+    
+            <!-- header section -->
+            <div class="intro-container container-fluid">
+                
+                <!-- introduction -->
+                <div class= "introduction">
+                    Hi, I'm
+                    <div class="name">
+                        Rashmi Wijesekara
+                    </div>
+                    <div class="details">
+                        3rd year Software Engineering Undergraduate
+                    </div>
+                    <div class="details">
+                        based on Sri Lanka
+                    </div>
+                </div>
+    
+                <!-- projects & github buttons -->
+                <div class="button-collection">
+                    <button type="button" class="btn btn-light btn-outline-light btn-lg btn-set1">
+                        <i class="fas fa-tasks"></i>
+                        Projects
+                    </button>
+    
+                    <button type="button" class="btn btn-light btn-outline-light btn-lg btn-set1">
+                        <i class="fab fa-github"></i>
+                        Github
+                    </button>
+                </div>
+    
+            </div>
 
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class= "navbar-nav ml-auto">
-                    <li class= "nav-item">
-                        <a class="nav-link" href="">
-                            About
-                        </a>
-                    </li>
-                    <li class= "nav-item">
-                        <a class="nav-link" href="">
-                            Skills
-                        </a>
-                    </li>
-                    <li class= "nav-item">
-                        <a class="nav-link" href="">
-                            Projects
-                        </a>
-                    </li>
-                    <li class= "nav-item">
-                        <a class="nav-link" href="">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
+        </div>
+
+        <!-- About me section -->
+        <div class="container-fluid about-section">
+            <div class="topic">
+                About Me
+            </div>
+
+        </div>
+
+        <div class="container-fluid skills-section">
+            <div class="topic">
+                My Skills
+            </div>
+        </div>
+
+        <div class="container-fluid projects-section">
+            <div class="topic">
+                My Projects
+            </div>
+        </div>
+
+        <div class="container-fluid contact-section">
+            <div class="topic">
+                Get in Touch
+            </div>
+        </div>
+
+        <!-- footer section -->
+        <footer class="text-center container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/logo.png" alt="Logo" width="50px" class="footer-logo">
+                </div>
+                
+                <div class="col-md-4">  
+                    <div class="footer-1">
+                        Designed & Built by: 
+                    </div>
+                    <div class="footer-2">
+                        <a class="footer-link" href="https://github.com/Rashmi-Wijesekara">Rashmi Wijesekara</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <a href="https://github.com/Rashmi-Wijesekara" target="_blank" class="logo-item-footer">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rashmi-wijesekara-a1a1881b3/" target="_blank" class="logo-item-footer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com/Rashmi_15_" target="_blank" class="logo-item-footer">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </div>
             </div>
             
-        </nav>
+        </footer>
     </body>
 </html>
