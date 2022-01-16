@@ -58,6 +58,8 @@ body {
     padding: 3px;
 }
 
+/* header section */
+
 .introduction {
     margin-bottom: 20px;
 
@@ -89,6 +91,7 @@ body {
 .button-collection {
     display: flex;
     justify-content: right;
+    padding-bottom: 30px;
 }
 
 .btn-set1, .btn-set2 {
@@ -104,10 +107,13 @@ body {
     font-weight: 800;
 }
 
+/***************************************************/
 
 /* about me section */
 .about-section {
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background: #044343;
 }
 
 .topic {
@@ -141,11 +147,68 @@ body {
 
 /* skills section */
 
+.skills-section {
+    background-color: #072227;
+}
+
+.skills-collection{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-item {
+    width: 130px;
+    margin: 10px 5px;
+}
+
+.skill-icon {
+    display:flex;
+    justify-content: center;
+}
+
+.skill-icon > .fab {
+    font-size: 100px;
+    color: #AEFEFF;
+}
+
+.skill-name {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 15px;
+}
+
+.mysql {
+    background-color: whitesmoke;
+    -webkit-mask: url(../images/mysql.svg) no-repeat center;
+    mask: url(../images/mysql.svg) no-repeat center;
+    width: 200px;
+}
+/******************************************************/
+
 /* projects section */
 
+.projects-section {
+    background-color: #072227;
+}
+
+.project-items {
+    width: 90%;
+    margin: 40px 0 40px 25px;
+}
+.project-item {
+    height: 350px; 
+    width: 80%; 
+    background-color: #35858B; 
+    border-radius: 20px;
+    margin: 0 auto 20px auto;
+}
+/******************************************************/
+
 /* contact section */
+
 .contact-section {
-    background: #044343;
+    background: #00454A;
 }
 
 .contact-section .sentence {
@@ -169,6 +232,12 @@ footer {
     background-color: #0D7377;
     font-family: "Montserrat";
 }
+
+.footer-section > .row {
+    width: 90%;
+    margin-left: 10px;
+}
+
 .footer-1, .footer-2{
     font-size: 13px;
 }
@@ -217,6 +286,15 @@ footer {
         margin: auto;
         padding: 20px 0;
     }
+
+    .skill-icon > .fab {
+        font-size: 50px;
+    }
+
+    .skill-item {
+        width: 100px;
+        margin: 10px 10px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -229,4 +307,24 @@ footer {
     .btn-set1 {
         margin-right: 50px;
     }
+}
+
+
+/***********************************************/
+.coming-soon {
+    font-size: 25px;
+    color: #a3f9ff;
+    font-family: ubuntu;
+    font-weight: bold;
+    text-align: center;
+    line-height: 4;
+    border: 3px solid #a3f9ff;
+    margin: 40px auto;
+    width: 250px;
+}
+
+.coming-soon:hover {
+    background-color: #AEFEFF;
+    color: #072227;
+    border: 3px solid #35858B;
 }
