@@ -119,6 +119,24 @@ body {
     width: 90%;
     border-bottom: 2px solid #35858B;
 }
+
+.sentence {
+    color: whitesmoke;
+    font-family: Ubuntu;
+    font-size: 18px;
+    margin: 20px 0 0 25px;
+    text-align: left;
+    width: 90%;
+}
+
+.my-photo {
+    width: 250px;
+}
+.photo {
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-left: 80px;
+}
 /****************************************************/
 
 /* skills section */
@@ -130,13 +148,8 @@ body {
     background: #044343;
 }
 
-.sentence {
-    color: whitesmoke;
-    font-family: Ubuntu;
-    font-size: 18px;
-    margin: 20px 0 0 25px;
+.contact-section .sentence {
     text-align: center;
-    width: 90%;
 }
 
 .contact-social-medias {
@@ -192,6 +205,18 @@ footer {
         margin-left: 25px;
         justify-content: center;
     }
+
+    .photo {
+        width: 150px;
+        margin: auto;
+    }
+
+    .my-photo {
+        display:flex;
+        justify-content: center;
+        margin: auto;
+        padding: 20px 0;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -203,5 +228,10 @@ footer {
 
     .btn-set1 {
         margin-right: 50px;
+    }
+
+    .photo {
+        margin-left: 10px;
+        margin-top: 100px;
     }
 }
