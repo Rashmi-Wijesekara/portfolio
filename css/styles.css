@@ -71,7 +71,6 @@ body {
     color: whitesmoke;
     margin-top: 100px;
     font-family: Ubuntu, sans-serif;
-
 }
 
 .container-fluid {
@@ -193,15 +192,48 @@ body {
 }
 
 .project-items {
-    width: 90%;
-    margin: 40px 0 40px 25px;
+    width: 95%;
+    margin: 40px 0;
+    margin-left: 10px;
 }
 .project-item {
-    height: 350px; 
-    width: 80%; 
-    background-color: #35858B; 
+    height: auto; 
+    width: 100%; 
+    /* background-color: #35858B;  */
+    background: #044343;
     border-radius: 20px;
     margin: 0 auto 20px auto;
+}
+.project-imgs {
+    margin: 1rem 0;
+}
+
+.project-img {
+    width: 95%;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+.project-description {
+    width: 100%;
+    font-family: Ubuntu, sans-serif;
+
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+
+.project-title {
+    font-size: 1.85rem;
+    font-weight: bold;
+    color: whitesmoke;
+    border-bottom: 1px solid;
+}
+
+.project-sentence {
+    margin-top: 1rem;
+    font-size: 18px;
+    color: whitesmoke;
 }
 /******************************************************/
 
@@ -295,6 +327,26 @@ footer {
         width: 100px;
         margin: 10px 10px;
     }
+
+    .project-items {
+        margin-left: 20px;
+    }
+    .project-item {
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .project-img {
+        width: 100%;
+    }
+    .project-title {
+        font-size: 1.5rem;
+    }
+    .project-sentence {
+        font-size: 1rem;
+    }
+    .project-description {
+        margin-bottom: 1.5rem;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -306,6 +358,10 @@ footer {
 
     .btn-set1 {
         margin-right: 50px;
+    }
+
+    .project-description {
+        padding-right: 2rem;
     }
 }
 
