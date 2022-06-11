@@ -170,6 +170,10 @@ body {
     font-size: 100px;
     color: #AEFEFF;
 }
+.skill-icon-img {
+    color: #AEFEFF;
+    width: 100px;
+}
 
 .skill-name {
     color: whitesmoke;
@@ -321,6 +325,11 @@ footer {
 
     .skill-icon > .fab {
         font-size: 50px;
+    }
+
+    .skill-icon-img {
+        color: #AEFEFF;
+        width: 50px;
     }
 
     .skill-item {
