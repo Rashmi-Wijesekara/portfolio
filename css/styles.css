@@ -95,6 +95,7 @@ body {
 
 .btn-set1, .btn-set2 {
     color: #072227;
+    box-shadow: 0 9px #999;
 }
 
 .btn-set1 {
@@ -103,7 +104,14 @@ body {
 
 .btn-set1:hover, .btn-set2:hover {
     background-color: #AEFEFF;
-    font-weight: 800;
+    box-shadow: 0 7px #666;
+    transform: translateY(2px);
+}
+
+.btn-set1:active, .btn-set2:active {
+    background-color: #AEFEFF;
+    box-shadow: 0 5px #666;
+    transform: translateY(5px);
 }
 
 /***************************************************/
