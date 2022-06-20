@@ -226,6 +226,10 @@ body {
     padding-bottom: 5px;
 }
 
+.project-img-more-space {
+    margin: 1rem 0;
+}
+
 .project-description {
     width: 100%;
     font-family: Ubuntu, sans-serif;
@@ -246,6 +250,19 @@ body {
     margin-top: 1rem;
     font-size: 18px;
     color: whitesmoke;
+}
+
+.project-repo-link {
+    margin: 2rem auto;
+}
+
+.project-repo-icon {
+    width: 20px;
+}
+
+.project-repo-btn {
+    font-size: 16px;
+    height: 42px;
 }
 /******************************************************/
 
@@ -352,8 +369,12 @@ footer {
         width: 100%;
         padding-top: 1rem;
     }
-    .project-img {
+    .project-img, .project-img-more-space {
         width: 100%;
+    }
+
+    .project-img-more-space {
+        margin-top: 0.5rem;
     }
     .project-title {
         font-size: 1.5rem;
@@ -379,6 +400,19 @@ footer {
 
     .project-description {
         padding-right: 2rem;
+    }
+
+    .project-img-more-space {
+        margin-top: 0.5rem;
+    }
+
+    .project-description-more-space {
+        margin-top: 1rem;
+    }
+
+    .project-item-more-space {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
     }
 }
 
